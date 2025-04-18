@@ -248,9 +248,7 @@ width: 43%;
   transform: scale(1.5);
   transition: all .3s ease-in-out;
 }
-img{
-  width: 100%;
-}
+
 nav .icon img{
 
 }
