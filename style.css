@@ -129,13 +129,11 @@
 {
     width: 5%;
 }
-.container > ul
-{
-    margin-top: 2vh;
+.container > ul {
     display: flex;
-    justify-content: space-between;
-    width: 100%;
-
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
 }
 .container > ul> li
 {
@@ -230,12 +228,12 @@ width: 43%;
 {
   background-color: blue;
 }
-.jintext
-{
+.jintext {
   font-family: "Poppins", sans-serif;
-    font-weight: 600;
-    font-style: italic;
-    margin: 10px 0 10px 0;
+  font-weight: 600;
+  font-style: italic;
+  margin: 10px 0 10px 0;
+  text-align: left;
 }
 .cardscontainer .imgcard{
   overflow: visible;
@@ -249,4 +247,39 @@ width: 43%;
 {
   transform: scale(1.5);
   transition: all .3s ease-in-out;
+}
+img{
+  width: 100%;
+}
+nav .icon img{
+
+}
+.flexcard
+{
+  justify-content: space-between;
+}
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  width: 25%;
+  margin: 10px;
+  height: min-content;
+  min-height: 267px;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.cardcontainer {
+  padding: 2px 16px;
+}
+.flexcard
+{
+  display: flex;
+}
+.card img{
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
 }
